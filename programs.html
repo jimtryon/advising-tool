@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Green River IT Advising</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/programs.css">
+	<link rel="stylesheet" href="../assets/css/hybrid-popup.css">
+
+
+
+	<!-- Optimize for mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<div>
+		<img src="../assets/img/GRTP4.jpg" class="img-responsive">
+	</div>
+
+	<h1>Green River IT Advising</h1>
+	<p>This is an educational tool for learning purposes only. Every effort has been
+		made to ensure that the information in this publication is accurate and up to
+		date. However, because curriculum, programs, tutition and other areas may
+		change during the period this publication is in circulation, students
+		should assume the responsibility of consulting the academic program office
+		for the most current information. All announcements are subject to change
+		without notice and do not constitute an agreement between Green River
+		College and the student.</p> 
+		<h3>Please select the program that you are interested in and the quarter
+			that you intend to begin.</h3>
+
+			<form name="myForm" action="programs-process.php" method="post">
+				<fieldset class="radio-qtr-group">
+					<legend>Select a Program</legend>
+					<div>
+						<label for="aa-systems">
+							<input type="radio" name="program" value="aa-systems" id="aa-systems"
+							checked="checked">
+							AAS-T IT Systems
+						</label>
+					</div>
+					<div>
+						<label for="bas-network">
+							<input type="radio" name="program" value="bas-network" id="bas-network">
+							BAS Network Administration and Security	
+						</label>
+					</div>
+					<div>
+						<label for="bas-software">
+							<input type="radio" name="program" value="bas-software" id="bas-software">
+							BAS Software Development
+						</label>
+					</div>
+				</fieldset>
+
+				<fieldset class="radio-programs-group">
+					<legend>Select a Starting Quarter</legend>
+					<div>
+						<label for="fall">
+							<input type="radio" name="quarter" value="fall" id="fall" checked="checked">
+							Fall
+						</label>
+					</div>
+					<div>
+						<label for="winter">
+							<input type="radio" name="quarter" value="winter" id="winter">
+							Winter
+						</label>
+					</div>
+					<div id="spring-radio">
+						<label for="spring">
+							<input type="radio" name="quarter" value="spring" id="spring">
+							Spring
+						</label>
+					</div>
+					<div id="summer-radio">
+						<label for="summer">
+							<input type="radio" name="quarter" value="summer" id="summer">
+							Summer
+						</label>
+					</div>
+				</fieldset>
+
+				<fieldset class="radio-classes-group">
+					<legend>Select Day or Evening/Hybrid</legend>
+					<div>
+						<label for="day">
+							<input type="radio" name="class" value="day" id="day" checked="checked">
+							Day
+						</label>
+					</div>
+
+					<div>
+						<label for="evening">
+							<input type="radio" name="class" value="evening" id="evening">
+							Evening/Hybrid
+							<a href="#" id="pop">More info</a></label>
+						</div>
+
+						<div id="overlay_form" style="display:none">
+							Hybrid" courses are those in which some traditional face-to-face "seat time" has been replaced by online learning activities. The purpose of a hybrid course is to take advantage of the best features of both face-to-face and online learning. Typically, a hybrid course will meet 50% of the time in the classroom and 50% online. <br>
+							<a href="#" id="close">Close</a>
+						</div>
+					</fieldset>
+
+					
+
+					<input name="submit" type="submit" class="btn">
+				</form>
+
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+				<script src="../assets/js/hybrid-popup.js"></script>
+				
+				<script src="../assets/ajax/script.js"></script>
+
+				<script>
+					$(document).ready(function() {
+		// Hide the caption when page is loaded
+		//$("p").hide();
+		// Check if user clicks on the BAS or AS program
+		// Show relevant information
+		$("#aa-systems").click(function() {
+			$("div#spring-radio, div#summer-radio").show();
+			$(".radio-classes-group").hide();
+		});
+		$("#bas-network, #bas-software").click(function() {
+			$("div#spring-radio, div#summer-radio").hide();
+			$(".radio-classes-group").show();
+		});
+		// See if BAS radio buttons are selected 
+		// If they are not, show/hide information
+		if ($("#bas-network, #bas-software").is(':checked') ) {
+			$("div#spring-radio, div#summer-radio").hide();
+			$(".radio-classes-group").show();
+		};
+		// Show the caption only when evening/hybrid is selected
+		$("#evening").click(function() {
+			$("p").show(); 
+		});
+		$("#day").click(function() {
+			$("p").hide(); 
+		});
+
+	});
+					
+	
+				</script>
+
+			</body>
+			</html>

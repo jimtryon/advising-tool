@@ -1,0 +1,92 @@
+[02-Apr-2015 17:22:16 America/Chicago] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/grtech/public_html/advising/programs-process.php on line 41
+[02-Apr-2015 17:29:12 America/Chicago] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/grtech/public_html/advising/programs-process.php on line 41
+[02-Apr-2015 17:31:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/grtech/public_html/advising/programs-process.php on line 71
+[02-Apr-2015 17:32:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/grtech/public_html/advising/programs-process.php on line 71
+[02-Apr-2015 17:34:42 America/Chicago] PHP Warning:  include(../it-advising/jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 94
+[02-Apr-2015 17:34:42 America/Chicago] PHP Warning:  include(../it-advising/jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 94
+[02-Apr-2015 17:34:42 America/Chicago] PHP Warning:  include(): Failed opening '../it-advising/jsfooter.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 94
+[02-Apr-2015 17:36:07 America/Chicago] PHP Warning:  include(../it-advising/jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 87
+[02-Apr-2015 17:36:07 America/Chicago] PHP Warning:  include(../it-advising/jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 87
+[02-Apr-2015 17:36:07 America/Chicago] PHP Warning:  include(): Failed opening '../it-advising/jsfooter.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 87
+[02-Apr-2015 18:11:17 America/Chicago] PHP Warning:  include(../it-advising/jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/bas-network-fall-day.html on line 79
+[02-Apr-2015 18:11:17 America/Chicago] PHP Warning:  include(../it-advising/jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/bas-network-fall-day.html on line 79
+[02-Apr-2015 18:11:17 America/Chicago] PHP Warning:  include(): Failed opening '../it-advising/jsfooter.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/grtech/public_html/advising/schedules/bas-network-fall-day.html on line 79
+[02-Apr-2015 19:18:09 America/Chicago] PHP Warning:  include(../jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 139
+[02-Apr-2015 19:18:09 America/Chicago] PHP Warning:  include(../jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 139
+[02-Apr-2015 19:18:09 America/Chicago] PHP Warning:  include(): Failed opening '../jsfooter.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 139
+[02-Apr-2015 19:19:38 America/Chicago] PHP Warning:  include(../jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 139
+[02-Apr-2015 19:19:38 America/Chicago] PHP Warning:  include(../jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 139
+[02-Apr-2015 19:19:38 America/Chicago] PHP Warning:  include(): Failed opening '../jsfooter.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 139
+[02-Apr-2015 19:19:42 America/Chicago] PHP Warning:  include(../jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 139
+[02-Apr-2015 19:19:42 America/Chicago] PHP Warning:  include(../jsfooter.php): failed to open stream: No such file or directory in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 139
+[02-Apr-2015 19:19:42 America/Chicago] PHP Warning:  include(): Failed opening '../jsfooter.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/grtech/public_html/advising/schedules/aa-systems-fall.html on line 139
+[13-Apr-2015 17:22:52 America/Chicago] PHP Warning:  include(includes/navbar.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/resources-old.php on line 35
+[13-Apr-2015 17:22:52 America/Chicago] PHP Warning:  include(includes/navbar.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/resources-old.php on line 35
+[13-Apr-2015 17:22:52 America/Chicago] PHP Warning:  include(): Failed opening 'includes/navbar.html' for inclusion (include_path='.:/opt/php54/lib/php') in /home/grtech/public_html/advising/resources-old.php on line 35
+[13-Apr-2015 17:22:52 America/Chicago] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/resources-old.php on line 103
+[13-Apr-2015 17:22:52 America/Chicago] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/resources-old.php on line 103
+[13-Apr-2015 17:22:52 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.html' for inclusion (include_path='.:/opt/php54/lib/php') in /home/grtech/public_html/advising/resources-old.php on line 103
+[13-Apr-2015 17:27:00 America/Chicago] PHP Warning:  include(includes/navbar.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/resources.php on line 35
+[13-Apr-2015 17:27:00 America/Chicago] PHP Warning:  include(includes/navbar.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/resources.php on line 35
+[13-Apr-2015 17:27:00 America/Chicago] PHP Warning:  include(): Failed opening 'includes/navbar.html' for inclusion (include_path='.:/opt/php54/lib/php') in /home/grtech/public_html/advising/resources.php on line 35
+[13-Apr-2015 17:27:00 America/Chicago] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/resources.php on line 103
+[13-Apr-2015 17:27:00 America/Chicago] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/resources.php on line 103
+[13-Apr-2015 17:27:00 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.html' for inclusion (include_path='.:/opt/php54/lib/php') in /home/grtech/public_html/advising/resources.php on line 103
+[22-Apr-2015 16:24:52 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:25:26 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:26:33 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:28:50 America/Chicago] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ';' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:30:12 America/Chicago] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ';' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:30:44 America/Chicago] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ';' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:37:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING), expecting ',' or ';' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:37:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING), expecting ',' or ';' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:38:24 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING), expecting ',' or ';' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:39:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'button' (T_STRING), expecting ',' or ';' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:39:17 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:41:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'popover' (T_STRING), expecting ',' or ';' in /home/grtech/public_html/advising/programs-process.php on line 85
+[22-Apr-2015 16:44:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'coursenum' (T_STRING), expecting ',' or ';' in /home/grtech/public_html/advising/programs-process.php on line 86
+[22-Apr-2015 17:06:39 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/grtech/public_html/advising/programs-process.php on line 115
+[22-Apr-2015 17:07:59 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/grtech/public_html/advising/programs-process.php on line 115
+[22-Apr-2015 17:38:26 America/Chicago] PHP Parse error:  syntax error, unexpected '' title='' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/grtech/public_html/advising/programs-process.php on line 85
+[29-Apr-2015 18:51:13 America/Chicago] PHP Parse error:  syntax error, unexpected '.=' (T_CONCAT_EQUAL) in /home/grtech/public_html/advising/programs-process.php on line 85
+[29-Apr-2015 18:53:42 America/Chicago] PHP Parse error:  syntax error, unexpected '.=' (T_CONCAT_EQUAL) in /home/grtech/public_html/advising/programs-process.php on line 85
+[29-Apr-2015 18:53:46 America/Chicago] PHP Parse error:  syntax error, unexpected '.=' (T_CONCAT_EQUAL) in /home/grtech/public_html/advising/programs-process.php on line 85
+[29-Apr-2015 18:54:04 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/grtech/public_html/advising/programs-process.php on line 85
+[29-Apr-2015 18:55:28 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/grtech/public_html/advising/programs-process.php on line 85
+[29-Apr-2015 18:55:39 America/Chicago] PHP Parse error:  syntax error, unexpected '.=' (T_CONCAT_EQUAL) in /home/grtech/public_html/advising/programs-process.php on line 85
+[29-Apr-2015 18:56:06 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/grtech/public_html/advising/programs-process.php on line 85
+[29-Apr-2015 19:02:43 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/grtech/public_html/advising/programs-process.php on line 85
+[29-Apr-2015 19:12:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/grtech/public_html/advising/programs-process.php on line 85
+[06-May-2015 18:08:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '{' in /home/grtech/public_html/advising/programs-process.php on line 57
+[15-May-2015 18:12:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '{' in /home/grtech/public_html/advising/programs-process.php on line 57
+[15-May-2015 18:15:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '{' in /home/grtech/public_html/advising/programs-process.php on line 57
+[15-May-2015 18:16:40 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '{' in /home/grtech/public_html/advising/programs-process.php on line 57
+[15-May-2015 18:16:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '{' in /home/grtech/public_html/advising/programs-process.php on line 57
+[01-Jun-2015 23:12:10 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/grtech/public_html/advising/schedules/aa-systems-fall.php on line 267
+[01-Jun-2015 23:25:03 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/grtech/public_html/advising/track-key.php on line 2
+[01-Jun-2015 23:25:57 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/grtech/public_html/advising/track-key.php on line 6
+[02-Jun-2015 15:30:43 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/grtech/public_html/advising/schedules/aa-systems-fall.php on line 247
+[02-Jun-2015 16:24:26 America/Chicago] PHP Warning:  include(schedules/aa-systems-fall.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 16:24:26 America/Chicago] PHP Warning:  include(schedules/aa-systems-fall.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 16:24:26 America/Chicago] PHP Warning:  include(): Failed opening 'schedules/aa-systems-fall.html' for inclusion (include_path='.:/opt/php55/lib/php') in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 16:26:47 America/Chicago] PHP Warning:  include(schedules/aa-systems-fall.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 16:26:47 America/Chicago] PHP Warning:  include(schedules/aa-systems-fall.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 16:26:47 America/Chicago] PHP Warning:  include(): Failed opening 'schedules/aa-systems-fall.html' for inclusion (include_path='.:/opt/php55/lib/php') in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 17:23:11 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/grtech/public_html/advising/modal.php on line 46
+[02-Jun-2015 17:25:21 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/grtech/public_html/advising/modal.php on line 3
+[02-Jun-2015 17:30:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/grtech/public_html/advising/modal.php on line 41
+[02-Jun-2015 17:33:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/grtech/public_html/advising/programs-process.php on line 70
+[02-Jun-2015 17:34:11 America/Chicago] PHP Warning:  include(schedules/aa-systems-fall.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 17:34:11 America/Chicago] PHP Warning:  include(schedules/aa-systems-fall.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 17:34:11 America/Chicago] PHP Warning:  include(): Failed opening 'schedules/aa-systems-fall.html' for inclusion (include_path='.:/opt/php55/lib/php') in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 17:35:14 America/Chicago] PHP Warning:  include(schedules/aa-systems-fall.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 17:35:14 America/Chicago] PHP Warning:  include(schedules/aa-systems-fall.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 17:35:14 America/Chicago] PHP Warning:  include(): Failed opening 'schedules/aa-systems-fall.html' for inclusion (include_path='.:/opt/php55/lib/php') in /home/grtech/public_html/advising/programs-process.php on line 30
+[02-Jun-2015 17:45:07 America/Chicago] PHP Warning:  include(schedules/aa-systems-fall.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/programs-process.php on line 45
+[02-Jun-2015 17:45:07 America/Chicago] PHP Warning:  include(schedules/aa-systems-fall.html): failed to open stream: No such file or directory in /home/grtech/public_html/advising/programs-process.php on line 45
+[02-Jun-2015 17:45:07 America/Chicago] PHP Warning:  include(): Failed opening 'schedules/aa-systems-fall.html' for inclusion (include_path='.:/opt/php55/lib/php') in /home/grtech/public_html/advising/programs-process.php on line 45
+[02-Jun-2015 18:13:02 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/grtech/public_html/advising/modal.php on line 85
+[02-Jun-2015 18:13:08 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/grtech/public_html/advising/modal.php on line 85
+[02-Jun-2015 18:14:11 America/Chicago] PHP Fatal error:  Cannot use try without catch or finally in /home/grtech/public_html/advising/modal.php on line 56
+[02-Jun-2015 18:20:16 America/Chicago] PHP Parse error:  syntax error, unexpected '"-"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/grtech/public_html/advising/modal.php on line 59
+[02-Jun-2015 18:20:39 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/grtech/public_html/advising/modal.php on line 59

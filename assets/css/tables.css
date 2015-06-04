@@ -1,0 +1,45 @@
+h2, h3 {
+
+	padding: 20px;
+
+}
+
+input {
+
+	margin-left: 20px;
+
+}
+
+p {
+
+	display: inline-block;
+
+	margin-bottom: 30px;
+
+}
+
+.table .table-bordered {
+
+	width: 30%;
+
+	margin-left: 20px;
+
+}
+
+.network {
+
+	background-color: #F3E2A9;
+
+}
+
+.software {
+
+	background-color: #BEF781;
+
+}
+
+p.network, p.software {
+
+	margin-left: 20px;
+
+}

@@ -1,0 +1,27 @@
+
+input {
+	margin-top: 1em;
+}
+label {
+	font-weight: 700;
+}
+legend {
+	padding-top: 1em;
+}
+p {
+	padding-top: 1em;
+}
+#submit {
+	margin-top: 1em;
+}
+.radio-classes-group {
+	display: none;
+}
+.white-popup {
+	position: relative;
+	background: #FFF;
+	padding: 20px;
+	width: auto;
+	max-width: 500px;
+	margin: 20px auto;
+}
