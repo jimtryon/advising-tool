@@ -63,7 +63,11 @@ if ($id) {
             <div class="modal-body">
             <p>
             <?php
-                echo $desc ."<p>$credits</p>"."<p>$prereqs</p>";
+                $coursetext = "<p>$desc</p>
+				<p>$credits credits</p><br>
+				<p>$prereqs</p>";
+				
+				echo $coursetext;
             ?>
             </p>
             </div>			<!-- /modal-body -->
