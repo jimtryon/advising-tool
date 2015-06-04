@@ -31,6 +31,8 @@ if ($id) {
 		$coursenum = $row['coursenum'];
 		$title = $row['title'];
 		$desc = $row['description'];
+		$credits = $row['credits'];
+		$prereqs = $row['prereqs'];
 
 	} else {
 
@@ -61,7 +63,7 @@ if ($id) {
             <div class="modal-body">
             <p>
             <?php
-                echo $desc;
+                echo $desc ."<p>$credits</p>"."<p>$prereqs</p>";
             ?>
             </p>
             </div>			<!-- /modal-body -->
