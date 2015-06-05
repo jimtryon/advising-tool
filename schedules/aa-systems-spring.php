@@ -52,7 +52,7 @@
 			<tbody>
 				<tr>
 					<td><a href="../advising/modal.php?courseid=it236" data-toggle="modal" data-target="#myModal">IT236</a></td>
-					<td>Gen Ed</td>
+					<td>&nbsp;</td>
 					<td><a href="../advising/modal.php?courseid=it141" data-toggle="modal" data-target="#myModal">IT141</a></td>
 					<td><a href="../advising/modal.php?courseid=it240" data-toggle="modal" data-target="#myModal">IT240</a></td>
 				</tr>
