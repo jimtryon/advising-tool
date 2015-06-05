@@ -55,7 +55,7 @@
 				<tr>
 					<td><a href="../../advising//modal.php?courseid=it102" data-toggle="modal" data-target="#myModal">IT102</a></td>
 					<td><a href="../../advising//modal.php?courseid=it240" data-toggle="modal" data-target="#myModal">IT240</a></td>
-					<td>IT 236</td>
+					<td><a href="../../advising/modal.php?courseid=it236" data-toggle="modal" data-target="#myModal">IT 236</a></td>
 					<td>&nbsp;</td>
 				</tr>
 
