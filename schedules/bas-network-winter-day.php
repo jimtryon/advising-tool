@@ -25,21 +25,21 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="../advising/programs-process.php?courseid=it344">IT 344</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it385">IT 385</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it340">IT 340</a></td>
+					<td><a href="../advising/modal.php?courseid=it344">IT 344</a></td>
+					<td><a href="../advising/modal.php?courseid=it385">IT 385</a></td>
+					<td><a href="../advising/modal.php?courseid=it340">IT 340</a></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><a href="../advising/programs-process.php?courseid=it335">IT 335</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it310">IT 310</a></td>
+					<td><a href="../advising/modal.php?courseid=it335">IT 335</a></td>
+					<td><a href="../advising/modal.php?courseid=it310">IT 310</a></td>
 					<td>Gen Ed</td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
 					<td>&nbsp;</td>
-					<td><a href="../advising/programs-process.php?courseid=bus340">BUS 340</a></td>
-					<td><a href="../advising/programs-process.php?courseid=engl335">ENGL 335</a></td>
+					<td><a href="../advising/modal.php?courseid=bus340">BUS 340</a></td>
+					<td><a href="../advising/modal.php?courseid=engl335">ENGL 335</a></td>
 					<td>&nbsp;</td>
 				</tr>
 			</tbody>
@@ -57,15 +57,15 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="../advising/programs-process.php?courseid=it360">IT 360</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it410">IT 410</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it490">IT 490</a></td>
+					<td><a href="../advising/modal.php?courseid=it360">IT 360</a></td>
+					<td><a href="../advising/modal.php?courseid=it410">IT 410</a></td>
+					<td><a href="../advising/modal.php?courseid=it490">IT 490</a></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><a href="../advising/programs-process.php?courseid=bus340">IT 340</a></td>
-					<td><a href="../advising/programs-process.php?courseid=engl335">ENGL 335</a></td>
-					<td><a href="../advising/programs-process.php?courseid=phil412">PHIL 412</a></td>
+					<td><a href="../advising/modal.php?courseid=bus340">IT 340</a></td>
+					<td><a href="../advising/modal.php?courseid=engl335">ENGL 335</a></td>
+					<td><a href="../advising/modal.php?courseid=phil412">PHIL 412</a></td>
 					<td>&nbsp;</td>
 				</tr>
 			</tbody>

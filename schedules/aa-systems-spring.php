@@ -25,16 +25,16 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="../advising/programs-process.php?courseid=it135">IT 135</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it190">IT 190</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it102">IT 102</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it131">IT 131</a></td>
+					<td><a href="../advising/modal.php?courseid=it135">IT 135</a></td>
+					<td><a href="../advising/modal.php?courseid=it190">IT 190</a></td>
+					<td><a href="../advising/modal.php?courseid=it102">IT 102</a></td>
+					<td><a href="../advising/modal.php?courseid=it131">IT 131</a></td>
 				</tr>
 				<tr>
-					<td><a href="../advising/programs-process.php?courseid=it201">IT 201</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it121">IT 121</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it114">IT 114</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it160">IT 160</a></td>
+					<td><a href="../advising/modal.php?courseid=it201">IT 201</a></td>
+					<td><a href="../advising/modal.php?courseid=it121">IT 121</a></td>
+					<td><a href="../advising/modal.php?courseid=it114">IT 114</a></td>
+					<td><a href="../advising/modal.php?courseid=it160">IT 160</a></td>
 				</tr>
 			</tbody>
 		</table>
@@ -51,18 +51,18 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="../advising/programs-process.php?courseid=it236">IT 236</a></td>
+					<td><a href="../advising/modal.php?courseid=it236">IT 236</a></td>
 					<td>Gen Ed</td>
-					<td><a href="../advising/programs-process.php?courseid=it141">IT 141</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it240">IT 240</a></td>
+					<td><a href="../advising/modal.php?courseid=it141">IT 141</a></td>
+					<td><a href="../advising/modal.php?courseid=it240">IT 240</a></td>
 				</tr>
 				<tr class="network">
-					<td><a href="../advising/programs-process.php?courseid=it245">IT 245</a></td>
+					<td><a href="../advising/modal.php?courseid=it245">IT 245</a></td>
 					<td>&nbsp;</td>
-					<td><a href="../advising/programs-process.php?courseid=it210">IT 210</a></td>
-					<td><a href="../advising/programs-process.php?courseid=it243">IT 243</a></td>
+					<td><a href="../advising/modal.php?courseid=it210">IT 210</a></td>
+					<td><a href="../advising/modal.php?courseid=it243">IT 243</a></td>
 					<tr class="software">
-						<td><a href="../advising/programs-process.php?courseid=it220">IT 220</a></td>
+						<td><a href="../advising/modal.php?courseid=it220">IT 220</a></td>
 						<td>&nbsp;</td>
 						<td>&nbsp;</td>
 						<td>&nbsp;</td>
