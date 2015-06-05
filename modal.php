@@ -53,7 +53,7 @@ if ($id) {
  <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 </head>
 <body>
             <div class="modal-header">
@@ -63,9 +63,9 @@ if ($id) {
             <div class="modal-body">
             <p>
             <?php
-                $coursetext = "<p>$desc</p>
-				<p>$credits credits</p><br>
-				<p>$prereqs</p>";
+                $coursetext = "$desc</br></br>
+				$credits credits</br></br>
+				$prereqs";
 				
 				echo $coursetext;
             ?>
