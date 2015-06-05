@@ -63,6 +63,8 @@ if ($submitted) {
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
+<a href="index.php" class="back btn btn-default" role="button">Back</a>
+
 <script>
   $('body').on('hidden.bs.modal', '.modal', function () {
     $(this).removeData('bs.modal');
