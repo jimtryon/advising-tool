@@ -72,7 +72,9 @@
 		</div>
 
 
-		<?php include '../advising/jsfooter.php'; ?>
+		<?php
+		include_once("../advising/track-key.php");
+		?>
 
 	</body>
 	</html>
