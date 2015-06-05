@@ -31,9 +31,6 @@ if ($submitted) {
 	} else {
 
 		$sched = $prog. '-' .$qtr;
-
-
-
 	}
 
 
