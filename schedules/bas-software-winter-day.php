@@ -38,7 +38,7 @@
 				</tr>
 				<tr>
 					<td>&nbsp;</td>
-					<td><a href="../advising/modal.php?courseid=eng335">ENGL 335</a></td>
+					<td><a href="../advising/modal.php?courseid=engl335" data-toggle="modal" data-target="#myModal">ENGL 335</a></td>
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
 				</tr>
@@ -65,7 +65,7 @@
 				<tr>
 					<td><a href="../advising/modal.php?courseid=it426" data-toggle="modal" data-target="#myModal">IT426</a></td>
 					<td><a href="../advising/modal.php?courseid=it485" data-toggle="modal" data-target="#myModal">IT485</a></td>
-					<td><a href="../advising/modal.php?courseid=cmst338">CMST 338</a></td>
+					<td><a href="../advising/modal.php?courseid=cmst338" data-toggle="modal" data-target="#myModal">CMST 338</a></td>
 					<td>&nbsp;</td>
                 </tr>
 			</tbody>
