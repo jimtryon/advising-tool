@@ -63,7 +63,8 @@ if ($submitted) {
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<a href="index.php" class="back btn btn-default" role="button">Back</a>
+<!-- Simulate the user is pressing the back button to save state of radio buttons -->
+<a href="index.php" class="back btn btn-default" role="button" onclick="history.back(); return false;">Back</a>
 
 <script>
   $('body').on('hidden.bs.modal', '.modal', function () {
