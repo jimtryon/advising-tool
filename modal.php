@@ -7,47 +7,45 @@ if ($id) {
 
 	try {
 
-	 // Create a new PDO connection object
+		 // Create a new PDO connection object
 
-	$dbh = new PDO('mysql:host=localhost;dbname=jim_grcc', $user, $pass);
+		$dbh = new PDO('mysql:host=localhost;dbname=jim_grcc', $user, $pass);
 
-	// Set the error mode
+		// Set the error mode
 
-	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-	$stmt = $dbh->prepare('SELECT * FROM course WHERE courseid = :id');
+		$stmt = $dbh->prepare('SELECT * FROM course WHERE courseid = :id');
 
-    $stmt->execute(array('id' => $id));
+		$stmt->execute(array('id' => $id));
 
-	// Get array containing all of the result rows
+		// Get array containing all of the result rows
 
-	$row = $stmt->fetch();
+		$row = $stmt->fetch();
 
-	// Print data if one of the rows were returned
+		// Print data if one of the rows were returned
 
-	if ($row != null  ) {
-		//print_r($_GET);
+		if ($row != null  ) {
+			//print_r($_GET);
 		
-		$coursenum = $row['coursenum'];
-		$title = $row['title'];
-		$desc = $row['description'];
-		$credits = $row['credits'];
-		$prereqs = $row['prereqs'];
+			$coursenum = $row['coursenum'];
+			$title = $row['title'];
+			$desc = $row['description'];
+			$credits = $row['credits'];
+			$prereqs = $row['prereqs'];
 
-	} else {
+		} else {
 
-		echo "No rows returned";
+			echo "No rows returned";
+			exit;
 
+			}
+		}
+	 catch(PDOException $e)
+		{
+		echo 'Error: ' . $e->getMessage();
+		}
 	}
-    }
-    	catch(PDOException $e)
-
-	{
-
-	echo 'Error: ' . $e->getMessage();
-
-	}
-}
  ?>
  
  <!DOCTYPE html>

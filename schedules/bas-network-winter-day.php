@@ -38,8 +38,8 @@
 				</tr>
 				<tr>
 					<td>&nbsp;</td>
-					<td><a href="../advising/modal.php?courseid=bus340">BUS 340</a></td>
-					<td><a href="../advising/modal.php?courseid=engl335">ENGL 335</a></td>
+					<td><a href="../advising/modal.php?courseid=bus340" data-toggle="modal" data-target="#myModal">BUS 340</a></td>
+					<td><a href="../advising/modal.php?courseid=engl335" data-toggle="modal" data-target="#myModal">ENGL 335</a></td>
 					<td>&nbsp;</td>
 				</tr>
 			</tbody>
@@ -64,8 +64,8 @@
 				</tr>
 				<tr>
 					<td><a href="../advising/modal.php?courseid=bus340" data-toggle="modal" data-target="#myModal">IT340</a></td>
-					<td><a href="../advising/modal.php?courseid=engl335">ENGL 335</a></td>
-					<td><a href="../advising/modal.php?courseid=phil412">PHIL 412</a></td>
+					<td><a href="../advising/modal.php?courseid=engl335" data-toggle="modal" data-target="#myModal">ENGL 335</a></td>
+					<td><a href="../advising/modal.php?courseid=phil412" data-toggle="modal" data-target="#myModal">PHIL 412</a></td>
 					<td>&nbsp;</td>
 				</tr>
 			</tbody>

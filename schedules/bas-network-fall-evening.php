@@ -53,13 +53,13 @@
 				<tr>
 					<td><a href="../advising/modal.php?courseid=it390" data-toggle="modal" data-target="#myModal">IT390</a></td>
 					<td><a href="../advising/modal.php?courseid=it490" data-toggle="modal" data-target="#myModal">IT490</a></td>
-					<td><a href="../advising/modal.php?courseid=cmst338">CMST 338</a></td>
+					<td><a href="../advising/modal.php?courseid=cmst338" data-toggle="modal" data-target="#myModal">CMST 338</a></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr>
-					<td><a href="../advising/modal.php?courseid=bus340">BUS 340</a></td>
-					<td><a href="../advising/modal.php?courseid=engl335">ENGL 335</a></td>
-					<td><a href="../advising/modal.php?courseid=phil412">PHIL 412</a></td>
+					<td><a href="../advising/modal.php?courseid=bus340" data-toggle="modal" data-target="#myModal">BUS 340</a></td>
+					<td><a href="../advising/modal.php?courseid=engl335" data-toggle="modal" data-target="#myModal">ENGL 335</a></td>
+					<td><a href="../advising/modal.php?courseid=phil412" data-toggle="modal" data-target="#myModal">PHIL 412</a></td>
 					<td>&nbsp;</td>
 				</tr>
 			</tbody>
