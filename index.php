@@ -60,13 +60,13 @@
 
 
 
-  <!-- IT Advising styles --> 
+  <!-- IT Advising styles -->
 
 
 
    <link href="../assets/css/programs.css" rel="stylesheet">
 
-   
+
 
 
 
@@ -613,11 +613,6 @@
               </fieldset>
 
 
-
-              <fieldset class="radio-classes-group">
-
-
-
                 <legend>Select Day or Evening/Hybrid</legend>
 
 
@@ -677,10 +672,6 @@
 
 
                   </div>
-
-
-
-                </fieldset>
 
 
 
@@ -844,12 +835,12 @@
 
             });
 
-            
+
 
             $("#hybrid-popup").popover({ trigger: "hover" });
-            
+
       });
-      
+
 
       </script>
 
@@ -860,6 +851,3 @@
 
 
   </html>
-
-
-

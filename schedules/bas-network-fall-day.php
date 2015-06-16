@@ -12,8 +12,6 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
-	<link rel="stylesheet" href="/advising/css/tables.css">
-
 </head>
 
 
@@ -145,4 +143,3 @@
 </body>
 
 </html>
-

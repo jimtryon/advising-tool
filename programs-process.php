@@ -39,7 +39,7 @@ if ($submitted) {
 
 
 
-	include ($path . $sched .'.php');
+	include ($path . $sched . '.php');
 
 }
 ?>
@@ -88,19 +88,19 @@ if ($submitted) {
 
 
 <script>
-/*	
+/*
 $(document).ready(function() {
-		
+
 		$("a").hover(function() {
 			var href = $(this).attr('href');
 			var id = getCourseId(href);
 			alert(id);
-			
+
 			$.get(href, { id : id }, function(data) {
 				alert(data);
 			});
 		});
-		
+
 		function getCourseId(url) {
 			var param = url.split('?');
 			var pair = param[1].split('=');
