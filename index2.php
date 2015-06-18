@@ -25,7 +25,7 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="../../assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="../../assets/img/grtech.jpg">
-  
+
   <style>
     .tumblr_body img {
       width: 200px;
@@ -44,14 +44,14 @@
       margin-left:0px;
     }
   </style>
-  
-  
+
+
   </head>
 
   <body>
 
   <!-- NAVBAR -->
-  <?php include '../includes/navbar.html'; ?>
+  <?php include 'includes/navbar.html'; ?>
 
     <div class="jumbotron">
       <div class="container top">
@@ -59,14 +59,14 @@
         <p class="toplead">Apply for a 2015-16 scholarship through Green River's Technology Scholars Program.</p>
         <p><a class="btn btn-success btn-lg" href="http://greenrivertech.net/files/S-STEM_Application_Form_2015-2016.pdf" target="_blank" role="button">Apply Now &raquo;</a></p>
       </div>
-    </div>  
+    </div>
 
 
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    
+
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
@@ -88,15 +88,15 @@
             <p>More content...</p>
           </div>
         </div><!-- /.span6 -->
- 
+
       </div><!-- /.row -->
-      
-      
+
+
 
 
       <hr class="featurette-divider">
-      
-      <?php include '../includes/footer.html'; ?>
+
+      <?php include 'includes/footer.html'; ?>
 
     </div><!-- /.container -->
 
