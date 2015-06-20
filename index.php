@@ -518,15 +518,15 @@
 
 
 
-                  <label for="fall">
+                  <label for="fall-day">
 
 
 
-                    <input type="radio" name="quarter" value="fall" id="fall" checked="checked">
+                    <input type="radio" name="quarter" value="fall-day" id="fall-day" checked="checked">
 
 
 
-                    Fall
+                    Fall (Day)
 
 
 
@@ -544,18 +544,21 @@
 
                   <label for="winter">
 
+                    <input type="radio" name="quarter" value="winter-evening" id="winter-evening">
 
+                    Winter (Evening/Hybrid)
 
-                    <input type="radio" name="quarter" value="winter" id="winter">
+                    <a href="#" id="hybrid-popup" data-toggle="popover" title="What is Hybrid?"
 
+                    data-placement="right" data-content="Hybrid courses are those in which some
 
+                    traditional face-to-face 'seat time' has been replaced by online learning activities.
 
-                    Winter
+                    The purpose of a hybrid course is to take advantage of the best features of both face-to-face
 
+                    and online learning. Typically, a hybrid course will meet 50% of the time in the classroom
 
-
-                  </label>
-
+                    and 50% online.">More info</a></label>
 
 
                 </div>
@@ -657,17 +660,6 @@
 
 
 
-                    <a href="#" id="hybrid-popup" data-toggle="popover" title="What is Hybrid?"
-
-                    data-placement="right" data-content="Hybrid courses are those in which some
-
-                    traditional face-to-face 'seat time' has been replaced by online learning activities.
-
-                    The purpose of a hybrid course is to take advantage of the best features of both face-to-face
-
-                    and online learning. Typically, a hybrid course will meet 50% of the time in the classroom
-
-                    and 50% online.">More info</a></label>
 
 
 

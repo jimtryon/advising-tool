@@ -2,24 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-
 	<title>Green River IT Advising</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/css/programs.css">
 	<link rel="stylesheet" href="../assets/css/hybrid-popup.css">
-
-
-
-	<!-- Optimize for mobile devices -->
+	<!-- Optimize for mobile devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
 	<div>
 		<img src="../assets/img/GRTP4.jpg" class="img-responsive">
 	</div>
-
 	<h1>Green River IT Advising</h1>
 	<p>This is an educational tool for learning purposes only. Every effort has been
 		made to ensure that the information in this publication is accurate and up to
@@ -28,10 +22,9 @@
 		should assume the responsibility of consulting the academic program office
 		for the most current information. All announcements are subject to change
 		without notice and do not constitute an agreement between Green River
-		College and the student.</p> 
+		College and the student.</p>
 		<h3>Please select the program that you are interested in and the quarter
 			that you intend to begin.</h3>
-
 			<form name="myForm" action="programs-process.php" method="post">
 				<fieldset class="radio-qtr-group">
 					<legend>Select a Program</legend>
@@ -45,7 +38,7 @@
 					<div>
 						<label for="bas-network">
 							<input type="radio" name="program" value="bas-network" id="bas-network">
-							BAS Network Administration and Security	
+							BAS Network Administration and Security
 						</label>
 					</div>
 					<div>
@@ -106,7 +99,7 @@
 						</div>
 					</fieldset>
 
-					
+
 
 					<input name="submit" type="submit" class="btn">
 				</form>
@@ -114,7 +107,7 @@
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 				<script src="../assets/js/hybrid-popup.js"></script>
-				
+
 				<script src="../assets/ajax/script.js"></script>
 
 				<script>
@@ -131,7 +124,7 @@
 			$("div#spring-radio, div#summer-radio").hide();
 			$(".radio-classes-group").show();
 		});
-		// See if BAS radio buttons are selected 
+		// See if BAS radio buttons are selected
 		// If they are not, show/hide information
 		if ($("#bas-network, #bas-software").is(':checked') ) {
 			$("div#spring-radio, div#summer-radio").hide();
@@ -139,15 +132,15 @@
 		};
 		// Show the caption only when evening/hybrid is selected
 		$("#evening").click(function() {
-			$("p").show(); 
+			$("p").show();
 		});
 		$("#day").click(function() {
-			$("p").hide(); 
+			$("p").hide();
 		});
 
 	});
-					
-	
+
+
 				</script>
 
 			</body>
