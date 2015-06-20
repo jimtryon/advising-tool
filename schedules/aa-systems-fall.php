@@ -4,11 +4,11 @@
 			<title>AAS-T IT Systems Fall Start</title>
 		</head>
 <body>
-	
+
 	<div class="table">
 		<caption><h2>AAS-T IT Systems Fall Start</h2></caption>
 		<tr><h3>1st Year</h3></tr>
-		
+
 		<table class="table table-bordered">
 			<thead>
 				<tr>
@@ -49,7 +49,7 @@
 					<th>Summer</th>
 				</tr>
 			</thead>
-			
+
 			<tbody>
 
 				<tr>
@@ -61,7 +61,7 @@
 
 
 
-				<tr class="network">
+				<tr>
 					<td><a href="../../advising//modal.php?courseid=it210" data-toggle="modal" data-target="#myModal">IT210</a></td>
 					<td><a href="../../advising//modal.php?courseid=it243" data-toggle="modal" data-target="#myModal">IT243</a></td>
 					<td><a href="../../advising//modal.php?courseid=it245" data-toggle="modal" data-target="#myModal">IT245</a></td>
@@ -70,7 +70,7 @@
 
 
 
-				<tr class="software">
+				<tr>
 					<td><a href="../../advising//modal.php?courseid=it121" data-toggle="modal" data-target="#myModal">IT121</a></td>
 					<td><a href="../../advising//modal.php?courseid=it219" data-toggle="modal" data-target="#myModal">IT219</a></td>
 					<td><a href="../../advising//modal.php?courseid=it220" data-toggle="modal" data-target="#myModal">IT220</a></td>
@@ -78,11 +78,5 @@
 				</tr>
 			</tbody>
 		</table>
-		<?php
-		include_once("../advising/track-key.php");
-		?>
-
 	</body>
 </html>
-		
-		

@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"javascript:void(0)>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="../assets/css/tables.css">
 
 
 </head>
@@ -56,12 +55,12 @@
 					<td><a href="../advising/modal.php?courseid=it141" data-toggle="modal" data-target="#myModal">IT141</a></td>
 					<td><a href="../advising/modal.php?courseid=it240" data-toggle="modal" data-target="#myModal">IT240</a></td>
 				</tr>
-				<tr class="network">
+				<tr>
 					<td><a href="../advising/modal.php?courseid=it245" data-toggle="modal" data-target="#myModal">IT245</a></td>
 					<td>&nbsp;</td>
 					<td><a href="../advising/modal.php?courseid=it210" data-toggle="modal" data-target="#myModal">IT210</a></td>
 					<td><a href="../advising/modal.php?courseid=it243" data-toggle="modal" data-target="#myModal">IT243</a></td>
-					<tr class="software">
+					<tr>
 						<td><a href="../advising/modal.php?courseid=it220" data-toggle="modal" data-target="#myModal">IT220</a></td>
 						<td>&nbsp;</td>
 						<td>&nbsp;</td>
@@ -71,10 +70,5 @@
 			</tbody>
 		</table>
 	</div>
-
-		<?php
-		include_once("../advising/track-key.php");
-		?>
-
 </body>
 </html>
