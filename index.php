@@ -105,7 +105,34 @@
 
 					<div>
 						<label for="winter">
-							<input type="radio" name="quarter" value="winter" id="winter"> Winter (Evening/Hybrid)
+							<input type="radio" name="quarter" value="winter" id="winter" checked="checked"> Winter
+						</label>
+					</div>
+
+					<div>
+						<label for="spring">
+							<input type="radio" name="quarter" value="spring" id="spring" checked="checked"> Spring
+						</label>
+					</div>
+
+					<div>
+						<label for="summer">
+							<input type="radio" name="quarter" value="summer" id="summer" checked="checked"> Summer
+						</label>
+					</div>
+                </fieldset>
+
+                <fieldset class="bas-radio-programs-group">
+                    <legend>Select a Starting Quarter</legend>
+                    <div>
+                        <label for="fall">
+                            <input type="radio" name="quarter" value="fall-day" id="fall-day" checked="checked"> Fall (Day)
+                        </label>
+                    </div>
+
+					<div>
+						<label for="winter">
+							<input type="radio" name="quarter" value="winter-evening" id="winter-evening"> Winter (Evening/Hybrid)
 							<a href="#" id="hybrid-popup" data-toggle="popover" title="What is Hybrid?" data-placement="right" data-content="Hybrid courses are those in which some
                     traditional face-to-face 'seat time' has been replaced by online learning activities.
 
@@ -114,18 +141,6 @@
                     and online learning. Typically, a hybrid course will meet 50% of the time in the classroom
 
                     and 50% online.">More info</a></label>
-					</div>
-
-					<div id="spring-radio">
-						<label for="spring">
-							<input type="radio" name="quarter" value="spring" id="spring"> Spring
-						</label>
-					</div>
-
-					<div id="summer-radio">
-						<label for="summer">
-							<input type="radio" name="quarter" value="summer" id="summer"> Summer
-						</label>
 					</div>
 				</fieldset>
 
@@ -136,7 +151,6 @@
 
 		<hr class="featurette-divider">
 		<?php include '../includes/footer.html'; ?>
-
 	</div>
 	<!-- /.container -->
 	<!-- Le javascript
@@ -159,61 +173,42 @@
     <script src="../assets/js/bootstrap-component.js"></script>
 	<script src="../assets/js/holder/holder.js"></script>
 
-
 	<script>
 		$(document).ready(function() {
-
 			// Hide the caption when page is loaded
-
 			//$("p").hide();
-
 			// Check if user clicks on the BAS or AS program
-
 			// Show relevant information
 
-			$("#aa-systems").click(function() {
+			$(".bas-radio-programs-group").hide();
 
-				$("div#spring-radio, div#summer-radio").show();
-
-				$(".radio-classes-group").hide();
-
+            $("#aa-systems").click(function() {
+                $(".aa-radio-programs-group").show();
+				$(".bas-radio-programs-group").hide();
 			});
 
 			$("#bas-network, #bas-software").click(function() {
-
 				$("div#spring-radio, div#summer-radio").hide();
-
-				$(".radio-classes-group").show();
-
+                $(".aa-radio-programs-group").hide();
+				$(".bas-radio-programs-group").show();
 			});
 
 			// See if BAS radio buttons are selected
-
 			// If they are not, show/hide information
 
 			if ($("#bas-network, #bas-software").is(':checked')) {
-
 				$("div#spring-radio, div#summer-radio").hide();
-
 				$(".radio-classes-group").show();
-
 			};
 
 			// Show the caption only when evening/hybrid is selected
-
 			$("#evening").click(function() {
-
 				$("p").show();
-
 			});
 
 			$("#day").click(function() {
-
 				$("p").hide();
-
 			});
-
-
 
 			$("#hybrid-popup").popover({
 				trigger: "hover"
@@ -221,11 +216,5 @@
 
 		});
 	</script>
-
-
-
 </body>
-
-
-
 </html>

@@ -61,7 +61,7 @@
 
 
 
-				<tr>
+				<tr class="network">
 					<td><a href="../../advising//modal.php?courseid=it210" data-toggle="modal" data-target="#myModal">IT210</a></td>
 					<td><a href="../../advising//modal.php?courseid=it243" data-toggle="modal" data-target="#myModal">IT243</a></td>
 					<td><a href="../../advising//modal.php?courseid=it245" data-toggle="modal" data-target="#myModal">IT245</a></td>
@@ -70,7 +70,7 @@
 
 
 
-				<tr>
+				<tr class="software">
 					<td><a href="../../advising//modal.php?courseid=it121" data-toggle="modal" data-target="#myModal">IT121</a></td>
 					<td><a href="../../advising//modal.php?courseid=it219" data-toggle="modal" data-target="#myModal">IT219</a></td>
 					<td><a href="../../advising//modal.php?courseid=it220" data-toggle="modal" data-target="#myModal">IT220</a></td>

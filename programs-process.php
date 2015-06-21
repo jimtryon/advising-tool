@@ -11,7 +11,6 @@ if ($submitted) {
 	// if bas program is selected, modify the sched string
 	if ($prog == "bas-network" || $prog == "bas-software") {
 		$sched = $prog. '-' .$qtr;
-		//include_once('track-key.php');
 		//echo $sched;
 	} else {
 		$sched = $prog. '-' .$qtr;
@@ -20,6 +19,10 @@ if ($submitted) {
     $path = "schedules/";
 
 	include_once ($path . $sched . '.php');
+
+	if ($prog == "aa-systems") {
+		include_once('track-key.php');
+	}
 }
 ?>
 
