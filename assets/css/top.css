@@ -1,0 +1,20 @@
+.tumblr_body img {
+	width: 200px;
+}
+
+.jumbotron {
+	background-image: url("../../assets/img/oa-banner.jpeg");
+}
+
+ol {
+	list-style-type: none;
+}
+
+.tumblr_title {
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.tumblr_posts {
+	margin-left: 0px;
+}
