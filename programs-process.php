@@ -5,15 +5,18 @@ $submitted = isset($_POST['submit']);
 // when form is submitted, include the correct schedule
 if ($submitted) {
 	$prog = $_POST['program'];
-	$qtr = $_POST['quarter'];
+	$a_qtr = $_POST['aa-quarter'];
+	$b_qtr = $_POST['bas-quarter'];
+
 	//$class = $_POST['class'];
 
 	// if bas program is selected, modify the sched string
 	if ($prog == "bas-network" || $prog == "bas-software") {
-		$sched = $prog. '-' .$qtr;
+		$sched = $prog. '-' .$b_qtr;
+
 		//echo $sched;
 	} else {
-		$sched = $prog. '-' .$qtr;
+		$sched = $prog. '-' .$a_qtr;
 	}
 
     $path = "schedules/";

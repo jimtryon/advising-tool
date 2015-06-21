@@ -99,25 +99,25 @@
 					<legend>Select a Starting Quarter</legend>
 					<div>
 						<label for="fall">
-							<input type="radio" name="quarter" value="fall" id="fall" checked="checked"> Fall
+							<input type="radio" name="aa-quarter" value="fall" id="fall" checked> Fall
 						</label>
 					</div>
 
 					<div>
 						<label for="winter">
-							<input type="radio" name="quarter" value="winter" id="winter" checked="checked"> Winter
+							<input type="radio" name="aa-quarter" value="winter" id="winter"> Winter
 						</label>
 					</div>
 
 					<div>
 						<label for="spring">
-							<input type="radio" name="quarter" value="spring" id="spring" checked="checked"> Spring
+							<input type="radio" name="aa-quarter" value="spring" id="spring"> Spring
 						</label>
 					</div>
 
 					<div>
 						<label for="summer">
-							<input type="radio" name="quarter" value="summer" id="summer" checked="checked"> Summer
+							<input type="radio" name="aa-quarter" value="summer" id="summer"> Summer
 						</label>
 					</div>
                 </fieldset>
@@ -125,14 +125,14 @@
                 <fieldset class="bas-radio-programs-group">
                     <legend>Select a Starting Quarter</legend>
                     <div>
-                        <label for="fall">
-                            <input type="radio" name="quarter" value="fall-day" id="fall-day" checked="checked"> Fall (Day)
+                        <label for="fall-day">
+                            <input type="radio" name="bas-quarter" value="fall-day" id="fall-day" checked> Fall (Day)
                         </label>
                     </div>
 
 					<div>
-						<label for="winter">
-							<input type="radio" name="quarter" value="winter-evening" id="winter-evening"> Winter (Evening/Hybrid)
+						<label for="winter-evening">
+							<input type="radio" name="bas-quarter" value="winter-evening" id="winter-evening"> Winter (Evening/Hybrid)
 							<a href="#" id="hybrid-popup" data-toggle="popover" title="What is Hybrid?" data-placement="right" data-content="Hybrid courses are those in which some
                     traditional face-to-face 'seat time' has been replaced by online learning activities.
 
@@ -181,7 +181,7 @@
 			// Show relevant information
 
 			$(".bas-radio-programs-group").hide();
-
+	
             $("#aa-systems").click(function() {
                 $(".aa-radio-programs-group").show();
 				$(".bas-radio-programs-group").hide();
