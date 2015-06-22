@@ -54,9 +54,7 @@
 
 	<div class="jumbotron">
 		<div class="container top">
-			<h1>Technical Resources</h1>
-			<p class="toplead">Created by and for students and faculty in Green River's Bachelor's in Software Development program.</p>
-			<p><a class="btn btn-success btn-lg" href="software-development.php" role="button">Learn More &raquo;</a></p>
+			<h1>Online Advisor</h1>
 		</div>
 	</div>
 
