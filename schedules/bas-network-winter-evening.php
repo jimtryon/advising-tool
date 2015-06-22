@@ -1,6 +1,10 @@
 <!doctype html>
 <html>
 
+<head>
+	<title>BAS IT Network Winter Evening Start</title>
+</head>
+
 <body>
 	<div class="table">
 		<caption><h2>BAS IT Networking and Security Winter Evening Start</h2></caption>

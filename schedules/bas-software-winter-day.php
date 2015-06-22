@@ -1,6 +1,10 @@
 <!doctype html>
 <html>
 
+<head>
+	<title>BAS IT Software Winter Day Start</title>
+</head>
+
 <body>
 	<div class="table">
 		<caption><h2>BAS IT Software Winter Day Start</h2></caption>

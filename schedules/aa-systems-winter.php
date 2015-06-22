@@ -1,6 +1,10 @@
 <!doctype html>
 <html>
 
+<head>
+	<title>AAS-T IT Systems Winter Start</title>
+</head>
+
 <body>
 	<div class="table">
 		<caption><h2>AAS-T IT Systems Winter Start</h2></caption>

@@ -2,13 +2,21 @@
 
 <html>
 
+<head>
+	<title>BAS IT Network Fall Start</title>
+</head>
+
 <body>
 
 	<div class="table">
 
-		<caption><h2>BAS IT Networking and Security Fall Day Start</h2></caption>
+		<caption>
+			<h2>BAS IT Networking and Security Fall Day Start</h2>
+		</caption>
 
-		<tr><h3>1st Year</h3></tr>
+		<tr>
+			<h3>1st Year</h3>
+		</tr>
 
 		<table class="table table-bordered">
 
@@ -60,7 +68,7 @@
 
 					<td><a href="../advising/modal.php?courseid=bus340" data-toggle="modal" data-target="#myModal">BUS 340</a></td>
 
-					<td><a href="../advising/modal.php?courseid=engl335"  data-toggle="modal" data-target="#myModal">ENGL 335</a></td>
+					<td><a href="../advising/modal.php?courseid=engl335" data-toggle="modal" data-target="#myModal">ENGL 335</a></td>
 
 					<td>&nbsp;</td>
 
@@ -72,7 +80,9 @@
 
 
 
-		<tr><h3>2nd Year</h3></tr>
+		<tr>
+			<h3>2nd Year</h3>
+		</tr>
 
 		<table class="table table-bordered">
 

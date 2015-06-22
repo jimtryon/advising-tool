@@ -1,8 +1,10 @@
 <!doctype html>
 <html>
-		<head>
-			<title>AAS-T IT Systems Fall Start</title>
-		</head>
+
+<head>
+	<title>AAS-T IT Systems Fall Start</title>
+</head>
+
 <body>
 
 	<div class="table">

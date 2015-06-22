@@ -2,6 +2,10 @@
 
 <html>
 
+<head>
+	<title>BAS IT Software Fall Day Start</title>
+</head>
+
 <body>
 
 	<div class="table">
