@@ -37,7 +37,6 @@ if ($submitted) {
 		<link href="../assets/css/bootstrap.css" rel="stylesheet">
 		<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
 		<link href="../assets/css/styles.css" rel="stylesheet">
-	    <link href="../assets/css/top.css" rel="stylesheet">
 
 		<!-- IT Advising styles -->
 		<link href="../assets/css/programs.css" rel="stylesheet">
@@ -54,7 +53,7 @@ if ($submitted) {
 		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
 		<link rel="shortcut icon" href="../assets/img/grtech.jpg">
 	</head>
-	</head>
+
 	<body>
 
 	<!-- NAVBAR -->
