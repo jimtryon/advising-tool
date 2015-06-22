@@ -67,9 +67,9 @@ if ($submitted) {
 	</div> <!-- /.modal -->
 
 		<hr class="featurette-divider">
+
 		<!-- FOOTER -->
-		<?php include '../includes/footer.html'; ?>
-	</div>
+		<?php include "../includes/footer.html"; ?>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
