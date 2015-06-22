@@ -1,13 +1,6 @@
 <!doctype html>
 <html>
 
-<head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"javascript:void(0)>
-
-
-</head>
-
 <body>
 	<div class="table">
 		<caption><h2>AAS-T IT Systems Winter Start</h2></caption>

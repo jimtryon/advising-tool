@@ -31,54 +31,53 @@ if ($submitted) {
 
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<head>
+		<link rel="stylesheet" href="../assets/css/tables.css">
+		<!-- Le styles -->
+		<link href="../assets/css/bootstrap.css" rel="stylesheet">
+		<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="../assets/css/styles.css" rel="stylesheet">
+	    <link href="../assets/css/top.css" rel="stylesheet">
 
-<link rel="stylesheet" href="../assets/css/tables.css">
-</head>
-<body>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        </div> <!-- /.modal-content -->
-    </div> <!-- /.modal-dialog -->
-</div> <!-- /.modal -->
+		<!-- IT Advising styles -->
+		<link href="../assets/css/programs.css" rel="stylesheet">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+	      <script src="../assets/js/html5shiv.js"></script>
+	      <![endif]-->
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<!-- Fav and touch icons -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="../assets/img/grtech.jpg">
+	</head>
+	</head>
+	<body>
 
-<!-- Simulate the user is pressing the back button to save state of radio buttons -->
-<a href="index.php" class="back btn btn-default" role="button" onclick="history.back(); return false;">Back</a>
+	<!-- NAVBAR -->
+	<?php include '../includes/navbar.html'; ?>
 
-<script>
-  $('body').on('hidden.bs.modal', '.modal', function () {
-    $(this).removeData('bs.modal');
-  });
-</script>
-</body>
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			</div> <!-- /.modal-content -->
+		</div> <!-- /.modal-dialog -->
+	</div> <!-- /.modal -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+	<!-- Simulate the user is pressing the back button to save state of radio buttons -->
+	<a href="index.php" class="back btn btn-default" role="button" onclick="history.back(); return false;">Back</a>
+
+	<script>
+	  $('body').on('hidden.bs.modal', '.modal', function () {
+	    $(this).removeData('bs.modal');
+	  });
+	</script>
+	</body>
 </html>
-
-<script>
-/*
-$(document).ready(function() {
-
-		$("a").hover(function() {
-			var href = $(this).attr('href');
-			var id = getCourseId(href);
-			alert(id);
-
-			$.get(href, { id : id }, function(data) {
-				alert(data);
-			});
-		});
-
-		function getCourseId(url) {
-			var param = url.split('?');
-			var pair = param[1].split('=');
-			var id = pair[1];
-			return id;
-		}
-	})
-*/
-</script>

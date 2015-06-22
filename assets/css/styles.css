@@ -3,10 +3,10 @@
     /* Padding below the footer and lighter body text */
 
     body {
-      padding-bottom: 40px;
+      padding-bottom: 40px;      padding-top: 40px;
       color: #5a5a5a;
     }
-    
+
     #main {
       max-width: 1920px;
       background: white;
@@ -62,7 +62,7 @@
       padding-top: 0.5em;
       padding-right: 2em;
     }
-    
+
 
 
     /* CUSTOMIZE THE CAROUSEL
@@ -73,19 +73,19 @@
       line-height: 40px;
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
     }
-    
+
     .top p {
       color: #333;
       line-height: 30px;
       margin-bottom: 15px;
-      margin-top: 20px;      
+      margin-top: 20px;
     }
-    
+
     .top {
       width: 70%;
       margin-left: 0;
     }
-    
+
     .jumbotron {
         background-color: white;
         background-position: right top;
@@ -184,9 +184,9 @@
       background-repeat: no-repeat;
       background-size: 100%;
     }
-    
+
     #start {
-      
+
       background-image: url("../assets/img/student1.jpeg");
       color: black;
       padding: 10em 55% 10em 20em;
@@ -195,9 +195,9 @@
       margin: -40px -130px;
       background-repeat: no-repeat;
       background-size: 100%;
-      
+
     }
-    
+
 
     /* Testimonials */
     .testimonials {
@@ -220,7 +220,7 @@
       font-size: 24px;
       font-weight: bolder;
     }
-    
+
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */
@@ -284,13 +284,13 @@
       .top p {
         font-size: 20px;
         line-height: 24px;
-        
+
         font-weight: 400;
       }
       .top h1 {
         font-size: 24px;
         line-height: 28px;
-         
+
       }
       .jumbotron {
         background-position: center top;
