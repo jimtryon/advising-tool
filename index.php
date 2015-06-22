@@ -84,13 +84,13 @@
 
 					<div>
 						<label for="bas-network">
-							<input type="radio" name="program" value="bas-network" id="bas-network"> BAS Network Administration and Security
+							<input type="radio" name="program" value="bas-network" id="bas-network" <?php if (isset($_POST['program']) && $_POST['program'] == 'bas-network') echo 'checked'; ?> /> BAS Network Administration and Security
 						</label>
 					</div>
 
 					<div>
 						<label for="bas-software">
-							<input type="radio" name="program" value="bas-software" id="bas-software"> BAS Software Development
+							<input type="radio" name="program" value="bas-software" id="bas-software" <?php if (isset($_POST['program']) && $_POST['program'] == 'bas-software') echo 'checked'; ?> /> BAS Software Development
 						</label>
 					</div>
 				</fieldset>
@@ -181,7 +181,7 @@
 			// Show relevant information
 
 			$(".bas-radio-programs-group").hide();
-	
+
             $("#aa-systems").click(function() {
                 $(".aa-radio-programs-group").show();
 				$(".bas-radio-programs-group").hide();
