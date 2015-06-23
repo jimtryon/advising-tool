@@ -2,10 +2,30 @@
 <html>
 
 <head>
+
+	<link rel="stylesheet" href="../assets/css/tables.css">
+	<!-- Le styles -->
+	<link href="../assets/css/bootstrap.css" rel="stylesheet">
+	<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="../assets/css/styles.css" rel="stylesheet">
+
+	<!-- IT Advising styles -->
+	<link href="../assets/css/programs.css" rel="stylesheet">
+
 	<title>AAS-T IT Systems Fall Start</title>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+		</script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">
+		</script>
 </head>
 
 <body>
+
+	<!-- Navbar -->
+	<?php include_once '../../includes/navbar.html'; ?>
 
 	<div class="table">
 		<caption><h2>AAS-T IT Systems Fall Start</h2></caption>
@@ -80,5 +100,11 @@
 				</tr>
 			</tbody>
 		</table>
+
+		<!-- Simulate the user is pressing the back button to save state of radio buttons -->
+		<a href="index.php" class="back btn btn-default" role="button">Back</a>
+
+
+		<?php include_once '../../includes/footer.html' ?>;
 	</body>
 </html>
