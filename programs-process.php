@@ -10,7 +10,7 @@
 	<title>Program Schedule</title>
 		<link rel="stylesheet" href="../assets/css/tables.css">
 		<!-- Le styles -->
-		<link href="../assets/css/bootstrap.css" rel="stylesheet">
+		<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
 		<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
 		<link href="../assets/css/styles.min.css" rel="stylesheet">
 

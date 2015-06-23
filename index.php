@@ -10,9 +10,9 @@
     <title>IT Bachelor's Degrees at Green River College</title>
 
 	<!-- Le styles -->
-	<link href="../assets/css/bootstrap.css" rel="stylesheet">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="../assets/css/styles.css" rel="stylesheet">
+	<link href="../assets/css/styles.min.css" rel="stylesheet">
     <link href="../assets/css/top.css" rel="stylesheet">
 
 	<!-- IT Advising styles -->
