@@ -26,19 +26,7 @@ if ($submitted) {
 	if ($prog == "aa-systems") {
 		include_once('track-key.php');
 	}
+
+	include_once('modal-process.php');
 }
 ?>
-
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-			</div> <!-- /.modal-content -->
-		</div> <!-- /.modal-dialog -->
-	</div> <!-- /.modal -->
-
-
-	<script>
-	  $('body').on('hidden.bs.modal', '.modal', function () {
-	    $(this).removeData('bs.modal');
-	  });
-	</script>
