@@ -1,37 +1,13 @@
-<?
-// Display table for IT plan
-$submitted = isset($_POST['submit']);
-
-// when form is submitted, include the correct schedule
-if ($submitted) {
-	$prog = $_POST['program'];
-	$a_qtr = $_POST['aa-quarter'];
-	$b_qtr = $_POST['bas-quarter'];
-
-	//$class = $_POST['class'];
-
-	// if bas program is selected, modify the sched string
-	if ($prog == "bas-network" || $prog == "bas-software") {
-		$sched = $prog. '-' .$b_qtr;
-
-		//echo $sched;
-	} else {
-		$sched = $prog. '-' .$a_qtr;
-	}
-
-    $path = "schedules/";
-
-	include_once ($path . $sched . '.php');
-
-	if ($prog == "aa-systems") {
-		include_once('track-key.php');
-	}
-}
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Green River College">
+	<meta name="description" content="Earn a bachelor's degree Software Development or Network Administration & Security at Green River College. Day and evening programs are available." />
+	<meta name="keywords" content="Green River, GRCC, Green River Community College, Green River College, bas, Auburn, Washington, IT Program, IT Programs, Bachelor's Degree, Bachelors Degree, Bachelor Degree, software development, software, 4 year degree, 4 year degrees, four year degree, four year degrees, computer degree, computer degrees, four year computer degree, 4 year computer degree, BAS Software Development, BAS"
+	/>
+	<title>Program Schedule</title>
 		<link rel="stylesheet" href="../assets/css/tables.css">
 		<!-- Le styles -->
 		<link href="../assets/css/bootstrap.css" rel="stylesheet">
@@ -55,6 +31,36 @@ if ($submitted) {
 	</head>
 
 	<body>
+		<?php
+		// Display table for IT plan
+		$submitted = isset($_POST['submit']);
+
+		// when form is submitted, include the correct schedule
+		if ($submitted) {
+			$prog = $_POST['program'];
+			$a_qtr = $_POST['aa-quarter'];
+			$b_qtr = $_POST['bas-quarter'];
+
+			//$class = $_POST['class'];
+
+			// if bas program is selected, modify the sched string
+			if ($prog == "bas-network" || $prog == "bas-software") {
+				$sched = $prog. '-' .$b_qtr;
+
+				//echo $sched;
+			} else {
+				$sched = $prog. '-' .$a_qtr;
+			}
+
+		    $path = "schedules/";
+
+			include_once ($path . $sched . '.php');
+
+			if ($prog == "aa-systems") {
+				include_once('track-key.php');
+			}
+		}
+		?>
 
 	<!-- NAVBAR -->
 	<?php include '../includes/navbar.html'; ?>
