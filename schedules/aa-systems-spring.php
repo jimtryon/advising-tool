@@ -19,17 +19,17 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
+				<tr class="network">
 					<td><a href="../advising/modal.php?courseid=it135" data-toggle="modal" data-target="#myModal">IT135</a></td>
 					<td><a href="../advising/modal.php?courseid=it190" data-toggle="modal" data-target="#myModal">IT190</a></td>
 					<td><a href="../advising/modal.php?courseid=it102" data-toggle="modal" data-target="#myModal">IT102</a></td>
 					<td><a href="../advising/modal.php?courseid=it131" data-toggle="modal" data-target="#myModal">IT131</a></td>
 				</tr>
-				<tr>
+				<tr class="software">
 					<td><a href="../advising/modal.php?courseid=it201" data-toggle="modal" data-target="#myModal">IT201</a></td>
 					<td><a href="../advising/modal.php?courseid=it121" data-toggle="modal" data-target="#myModal">IT121</a></td>
 					<td><a href="../advising/modal.php?courseid=it114" data-toggle="modal" data-target="#myModal">IT114</a></td>
-					<td><a href="../advising/modal.php?courseid=it160" data-toggle="modal" data-target="#myModal">IT160</a></td>
+					<td><a href="../advising/modal.php?courseid=it160" data-toggle="modal" data-target="#myModal">IT219</a></td>
 				</tr>
 			</tbody>
 		</table>
@@ -45,13 +45,13 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class="network">
+				<tr>
 					<td><a href="../advising/modal.php?courseid=it236" data-toggle="modal" data-target="#myModal">IT236</a></td>
 					<td>&nbsp;</td>
 					<td><a href="../advising/modal.php?courseid=it141" data-toggle="modal" data-target="#myModal">IT141</a></td>
 					<td><a href="../advising/modal.php?courseid=it240" data-toggle="modal" data-target="#myModal">IT240</a></td>
 				</tr>
-				<tr class="software">
+				<tr class="network">
 					<td><a href="../advising/modal.php?courseid=it245" data-toggle="modal" data-target="#myModal">IT245</a></td>
 					<td>&nbsp;</td>
 					<td><a href="../advising/modal.php?courseid=it210" data-toggle="modal" data-target="#myModal">IT210</a></td>

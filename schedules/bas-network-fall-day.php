@@ -112,17 +112,29 @@
 
 					<td><a href="../advising/modal.php?courseid=it490" data-toggle="modal" data-target="#myModal">IT490</a></td>
 
+					<td><a href="../advising/modal.php?courseid=cmst338" data-toggle="modal" data-target="#myModal">CMST338</a></td>
+
+				</tr>
+
+				<tr>
+
+					<td><a href="../advising/modal.php?courseid=it390" data-toggle="modal" data-target="#myModal">IT390</a></td>
+
+					<td><a href="../advising/modal.php?courseid=it460" data-toggle="modal" data-target="#myModal">IT460</a></td>
+
+					<td>&nbsp;</td>
+
 					<td>&nbsp;</td>
 
 				</tr>
 
 				<tr>
 
-					<td><a href="../advising/modal.php?courseid=bus340" data-toggle="modal" data-target="#myModal">IT340</a></td>
+					<td><a href="../advising/modal.php?courseid=phil412" data-toggle="modal" data-target="#myModal">PHIL412</a></td>
 
-					<td><a href="../advising/modal.php?courseid=engl335" data-toggle="modal" data-target="#myModal">ENGL 335</a></td>
+					<td>&nbsp;</td>
 
-					<td><a href="../advising/modal.php?courseid=phil412" data-toggle="modal" data-target="#myModal">PHIL 412</a></td>
+					<td>&nbsp;</td>
 
 					<td>&nbsp;</td>
 
