@@ -19,13 +19,13 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class="network">
+				<tr>
 					<td><a href="../advising/modal.php?courseid=it131" data-toggle="modal" data-target="#myModal">IT131</a></td>
 					<td><a href="../advising/modal.php?courseid=it135" data-toggle="modal" data-target="#myModal">IT135</a></td>
 					<td><a href="../advising/modal.php?courseid=it190" data-toggle="modal" data-target="#myModal">IT190</a></td>
                     <td><a href="../advising/modal.php?courseid=it102" data-toggle="modal" data-target="#myModal">IT102</a></td>
 				</tr>
-				<tr class="software">
+				<tr>
 					<td><a href="../advising/modal.php?courseid=it160" data-toggle="modal" data-target="#myModal">IT160</a></td>
 					<td><a href="../advising/modal.php?courseid=it201" data-toggle="modal" data-target="#myModal">IT201</a></td>
                     <td>&nbsp;</td>
