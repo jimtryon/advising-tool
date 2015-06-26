@@ -46,7 +46,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>&nbsp;</td>
+					<td>Gen Ed</td>
 					<td><a href="../advising/modal.php?courseid=it102" data-toggle="modal" data-target="#myModal">IT102</a></td>
 					<td><a href="../advising/modal.php?courseid=it240" data-toggle="modal" data-target="#myModal">IT240</a></td>
 					<td><a href="../advising/modal.php?courseid=it236" data-toggle="modal" data-target="#myModal">IT236</a></td>
