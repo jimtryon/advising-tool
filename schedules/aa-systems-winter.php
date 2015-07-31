@@ -55,13 +55,13 @@
 					<td><a href="../advising/modal.php?courseid=it243" data-toggle="modal" data-target="#myModal">IT243</a></td>
 					<td><a href="../advising/modal.php?courseid=it245" data-toggle="modal" data-target="#myModal">IT245</a></td>
                     <td>&nbsp;</td>
-					<td><a href="../advising/modal.php?courseid=it114" data-toggle="modal" data-target="#myModal">IT114</a></td>
+					<td><a href="../advising/modal.php?courseid=it114" data-toggle="modal" data-target="#myModal">IT210</a></td>
 				</tr>
 				<tr class="software">
-					<td><a href="../advising/modal.php?courseid=it203" data-toggle="modal" data-target="#myModal">IT219</a></td>
+					<td><a href="../advising/modal.php?courseid=it203" data-toggle="modal" data-target="#myModal">IT203</a></td>
 					<td><a href="../advising/modal.php?courseid=it220" data-toggle="modal" data-target="#myModal">IT220</a></td>
                     <td>&nbsp;</td>
-					<td>&nbsp;</td>
+					<td><a href="../advising/modal.php?courseid=it121" data-toggle="modal" data-target="#myModal">IT121</a></td>
 				</tr>
 			</tbody>
 		</table>

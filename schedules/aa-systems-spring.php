@@ -82,8 +82,8 @@
                     <a href="../../advising//modal.php?courseid=it220" data-toggle="modal" data-target="#myModal">IT220</a>
                 </td>
 				<td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td><a href="../../advising/modal.php?courseid=it121" data-toggle="modal" data-target="#myModal">IT121</a></td>
+                <td><a href="../../advising/modal.php?courseid=it203" data-toggle="modal" data-target="#myModal">IT203</a></td>
             </tr>
         </tbody>
     </table>
